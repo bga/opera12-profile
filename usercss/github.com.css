@@ -1,0 +1,51 @@
+
+.blob-wrapper > table {
+  font-family: "Courier New";
+
+  margin: 0;
+  padding: 0;
+
+  border-collapse: collapse;
+  border: none;
+  border-spacing: 0;
+}
+.blob-code {
+  font-size: 10pt;
+  white-space: pre-wrap;
+  padding-left: 1em !important;
+}
+
+.js-line-number {
+  /* content: attr(data-line-number) "\00a0\00a0"; */
+
+  text-align: right;
+  font-size: 8pt;
+  min-width: 3.5em;
+  vertical-align: middle;
+
+  border-right: 1px black solid;
+}
+
+.signup-prompt {
+  display: none !important;
+}
+
+.pagehead-actions {
+  text-align: right;
+}
+
+.pagehead-actions > li {
+  display: inline-block;
+}
+
+.AvatarStack-body  {
+  display: block !important;
+}
+
+.d-flex { 
+  display: inherit !important;
+}
+/* linejump */
+.Box--overlay {
+  display: none !important;
+}

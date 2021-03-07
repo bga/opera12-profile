@@ -1,0 +1,59 @@
+﻿.social-buttons {
+  display: none !important;
+}
+#sitetitle {
+  content: 'LOR'
+}
+.msg {
+  border-top: 1px black solid !important;
+}
+.sign > img[alt='*'] {
+  display: none !important;
+}
+.sign {
+  margin: 0 !important;
+  display: inline !important;
+}
+.reply {
+  display: inline !important;
+}
+.msg {
+  padding-top: 1em !important;
+}
+.tag {
+  font-size: 1em !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+.tag:before {
+  content: '[';
+}
+.tag:after {
+  content: ']';
+}
+img[src='/img/solved.png'] {
+  content: '(Решено)'
+}
+.userpic {
+  display: none !important;
+}
+.stars {
+  display: none !important;
+}
+.icon-tag:before { 
+  content: "" !important;
+}
+/*
+div.infoblock:not(#counter_block) {
+  display: none !important;
+}
+*/
+.infoblock[style^='border'], .nav + p + .infoblock {
+  display: none !important;
+}
+.fav-buttons {
+  display: none !important;
+}
+* {
+  font-family: "Trebuchet MS" !important;
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*	Name: Common */
+
+html, body, main {
+  display: block !important;
+  visibility: visible !important; 
+}
+html, body {
+  max-width: 100% !important;
+}
+img {
+  max-width: 700px !important;
+}

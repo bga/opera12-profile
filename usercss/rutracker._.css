@@ -1,0 +1,8 @@
+#no-js-warn, #tr-form {
+	display: none !important;
+}
+
+#search-results {
+	display: block !important;
+	visibility: visible !important;
+}

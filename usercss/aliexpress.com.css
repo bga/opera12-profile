@@ -1,0 +1,11 @@
+.list-item .picCore {
+  visibility: visible !important;
+}
+
+.product-description-main .ui-box-body .description-content {
+	height: auto !important;
+	overflow: auto !important;
+}
+.description-view-more {
+	display: none !important;
+}

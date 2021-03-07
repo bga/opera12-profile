@@ -1,0 +1,16 @@
+#left-sidebar, #js-gdpr-consent-banner, .hero-container, .js-consent-banner, .js-dismissable-hero {
+	display: none !important;
+}
+
+.post-layout {
+	justify-content: flex-start !important;
+}
+.post-text, .post-layout--right .comments {
+	width: auto !important;
+	max-width: 625px !important;
+}
+
+.js-voting-container {
+	display: inline-block !important;
+}
+

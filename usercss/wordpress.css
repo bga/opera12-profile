@@ -1,0 +1,3 @@
+#wpadminbar, #wp-admin-bar-newdash-default, #wp-admin-bar-my-account {
+  display: none !important;
+}

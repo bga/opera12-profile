@@ -1,0 +1,33 @@
+/*
+#WikiaBarWrapper, #WikiaHeader, a[href="#"], .SelfServeUrl, .WikiaSearch, #WikiaNotifications, #WikiaArticleCategories, #WikiaFooter, .CorporateFooter {
+  display: none !important;
+}
+*/
+#WikiaPage, 
+.WikiaHeader .page-width-container, 
+.GlobalNavigation .subnav, #WikiaPage, #WikiaTopAds {
+  width: auto !important;
+}
+#WikiaHeader {
+  min-width: 0 !important;
+}
+#WikiaBarCollapseWrapper, 
+.wikia-ad, 
+#WikiaArticleCategories, 
+#WikiaNotifications, 
+#WikiaTopAds, 
+#WikiaBarWrapper, 
+.WikiaBarCollapseWrapper, 
+#WikiaPageBackground, 
+#WikiaRail, 
+.navbackground, 
+.SelfServeUrl {
+  display: none !important;
+}
+.GlobalNavigation, #AccountNavigation {
+  position: static !important;
+  display: none !important;
+}
+body {
+  overflow: auto !important;
+}

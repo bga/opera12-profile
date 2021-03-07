@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*	Name: Disable CSS3 */
+
+* { 
+  text-shadow: none !important; 
+  opacity: 1 !important; 
+}
+/*
+input[autofocus] {
+  display: none !important;
+}
+* ::selection  {
+  background: #0A246A !important;
+}
+*/

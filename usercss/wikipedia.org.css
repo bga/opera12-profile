@@ -1,0 +1,10 @@
+/* Opera does not allow to modify { text-decoration } for anchors */
+a.new:before {
+  content: "["
+}
+a.new:after {
+  content: "]"
+}
+.interwiki-en, .interwiki-ru {
+  font-weight: bold;
+}

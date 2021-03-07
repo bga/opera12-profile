@@ -1,0 +1,6 @@
+form[name=bask_form] > *[itemprop=offers] {
+	display: block !important;
+}
+.prcmn > script { 
+	display: inline !important;
+}

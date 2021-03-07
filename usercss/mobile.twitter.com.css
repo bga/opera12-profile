@@ -1,0 +1,6 @@
+.tweet-text > div {
+  white-space: pre-wrap !important;
+}
+#brand_bar + .toast .message, #global_nav + .toast .message {
+  display: none !important;
+}

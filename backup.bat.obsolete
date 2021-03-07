@@ -1,0 +1,16 @@
+set update=-u
+if /i "%~d1" equ "c:" set update=
+
+cp -r %update% --preserve=mode,timestamps ^
+  "%~dp0.\keyboard" ^
+  "%~dp0.\mouse" ^
+  "%~dp0.\styles" ^
+  "%~dp0.\toolbar" ^
+  "%~dp0.\webserver" ^
+  "%~dp0.\operaprefs.ini" ^
+  "%~dp0.\search.ini" ^
+  "%~dp0.\tasks.xml" ^
+  "%~dp0.\tips.ini" ^
+  "%~dp0.\urlfilter.ini" ^
+  "%~1.\"
+

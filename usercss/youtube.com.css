@@ -1,0 +1,6 @@
+.watch-title, .yt-uix-sessionlink {
+  text-transform: lowercase !important;
+}
+#default-language-message, .yt-alert-content, #alerts {
+  display: none !important;
+}

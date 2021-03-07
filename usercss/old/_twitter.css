@@ -1,0 +1,61 @@
+#brand_bar {
+  display: none;
+}
+/*
+.tweettable tr:first-child {
+  display: none;
+}
+*/
+#container {
+  width: auto !important;
+}
+#global_nav .tweet {
+  display: none;
+}
+.fullname, 
+.avatar, 
+#global_nav .discover, 
+.tweet-actions > a.favorite, 
+.search-fields, 
+form[action$=destroy] input[type=submit], 
+.view-actions, 
+.copyright, 
+.tweet-social-context, 
+.disco, 
+.empty-index, 
+.add-phone
+{
+  display: none;
+}
+
+#global_nav td > a {
+  content: attr(title)
+}
+
+/*
+.tweetform .counter {
+  display: table-cell !important
+}
+*/
+a[href^="/"][href*=reply] > span {
+  content: "RE";
+  border: none !important;
+  height: 11px !important;
+  text-decoration: underline !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  /* font-size: 8px !important; */
+  /* line-height: 10px */
+}
+a[href^="/"][href*=retweet] > span {
+  content: "RT";
+  height: 11px !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  border: none !important;
+}
+/*
+.conversation-tweet:not(:first-of-type) {
+  margin-left: 20px !important;
+}
+*/

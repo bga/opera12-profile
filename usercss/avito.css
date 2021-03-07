@@ -1,0 +1,13 @@
+.favorites-add, .avito-ads-container, .js-item-trackable, div[class^=placeholder-root-] {
+  display: none !important;
+}
+
+.item-photo .photo-wrapper {
+  display: block !important;
+}
+
+.items-vip-1naL1, .items-ads-2qN-4 {
+  display: none !important;
+}
+
+/* .iva-item-aside-2Wxs_, */
