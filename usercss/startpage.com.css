@@ -1,0 +1,7 @@
+#clear-button, #feedback-button-container, img[src^='/sp/nojst?'] {
+	display: none !important;
+}
+
+.layout-web {
+	overflow: visible !important;
+}
