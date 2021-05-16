@@ -26,7 +26,7 @@
   border-right: 1px black solid;
 }
 
-.signup-prompt {
+.signup-prompt, .h-card > .details-overlay {
   display: none !important;
 }
 
