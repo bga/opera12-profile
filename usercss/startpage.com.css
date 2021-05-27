@@ -5,3 +5,19 @@
 .layout-web {
 	overflow: visible !important;
 }
+.w-gl__result-second-line-container > .result-link[href$=".pdf"] > h3::before {
+	content: "[PDF] ";
+}
+.w-gl__result-second-line-container > .result-link[href$=".doc"] > h3::before {
+	content: "[DOC] ";
+}
+.w-gl__result-second-line-container > .result-link[href$=".docx"] > h3::before {
+	content: "[DOCX] ";
+}
+.w-gl__result-second-line-container > .result-link[href$=".xls"] > h3::before {
+	content: "[XLS] ";
+}
+.w-gl__result-second-line-container > .result-link[href$=".xlsx"] > h3::before {
+	content: "[XLSX] ";
+}
+
