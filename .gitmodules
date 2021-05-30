@@ -1,3 +1,6 @@
 [submodule "userjs"]
 	path = userjs
 	url = ./userjs
+[submodule "_tools/opera-dragonfly"]
+	path = _tools/opera-dragonfly
+	url = https://github.com/bga/dragonfly
