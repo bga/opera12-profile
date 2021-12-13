@@ -1,0 +1,5 @@
+I Opera = Opera/9.80 (Windows NT 6.1) Presto/2.12.388 Version/12.18
+I FF = Mozilla/5.0 (Windows NT 6.1; rv:80.0) Gecko/20100101 Firefox/80.0
+I IE = Googlebot/2.1 (+http://www.google.com/bot.html)
+M FF = Mozilla/5.0 (Windows NT 6.1; rv:2.0) Gecko/20100101 Firefox/4.0
+M IE = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
