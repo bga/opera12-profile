@@ -1,0 +1,16 @@
+.result > .result_header > a[href$=".pdf"]::before {
+	content: "[PDF] ";
+}
+.result > .result_header > a[href$=".doc"]::before {
+	content: "[DOC] ";
+}
+.result > .result_header > a[href$=".docx"]::before {
+	content: "[DOCX] ";
+}
+.result > .result_header > a[href$=".xls"]::before {
+	content: "[XLS] ";
+}
+.result > .result_header > a[href$=".xlsx"]::before {
+	content: "[XLSX] ";
+}
+
