@@ -1,4 +1,4 @@
-.favorites-add, .avito-ads-container, .js-item-trackable, div[class^=placeholder-root-] {
+div[data-marker='favorites-add'], .avito-ads-container, .js-item-trackable, div[class^=placeholder-root-] {
   display: none !important;
 }
 
@@ -6,7 +6,7 @@
   display: block !important;
 }
 
-.items-vip-1naL1, .items-ads-2qN-4 {
+.items-vip-1naL1, .items-vip-KXPvy, div[class^=items-ads-] {
   display: none !important;
 }
 
